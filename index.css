@@ -49,11 +49,15 @@ body {
     height: 42px;
     border-style: none;
     color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
 }
 
 .container .divide-line {
-    color: #2F3E53 !important;
-    margin-top: 17px;
+    border: 1px solid #2F3E53;
 }
 
 .generate-button .btn-word {
@@ -131,6 +135,10 @@ body {
 
     color: #55F991;
     padding: 0em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .password-area img {
