@@ -52,7 +52,7 @@ body {
 }
 
 .container .divide-line {
-    color: #2F3E53;
+    color: #2F3E53 !important;
     margin-top: 17px;
 }
 
@@ -60,15 +60,80 @@ body {
     line-height: 30px;
 }
 
-.generated-passwords .gen-1 {
-    width: 211px;
-    height: 39px;
+.generated-passwords {
+    width: 210px;
+    height: 40px;
+
+    /* background: #273549; */
+    border-radius: 6px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 2em;
+}
+
+/* . img {
+    margin-top: 19px;
+    margin-left: 95px;
+}
+
+.generated-passwords .gen-2 {
+    width: 210px;
+    height: 40px;
 
     background: #273549;
     border-radius: 6px;
 }
 
-.generated-passwords img {
-    margin: auto;
+.gen-2 img {
+    margin-top: 19px;
+    margin-left: 95px;
+}
+
+.generated-passwords .gen-3 {
+    width: 210px;
+    height: 40px;
+
+    background: #273549;
+    border-radius: 6px;
+}
+
+.gen-3 img {
+    margin-top: 19px;
+    margin-left: 95px;
+}
+
+.generated-passwords .gen-4 {
+    width: 210px;
+    height: 40px;
+
+    background: #273549;
+    border-radius: 6px;
+}
+
+.gen-4 img {
+    margin-top: 19px;
+    margin-left: 95px;
+} */
+
+.generated-passwords .password-area {
+    width: 210px;
+    height: 40px;
+
+    background: #273549;
+    border-radius: 6px;
+
     text-align: center;
+    margin-top: 1em;
+
+    color: #55F991;
+    padding: 0em;
+}
+
+.password-area img {
+    /* margin-top: 19px;
+    margin-left: 95px; */
 }
